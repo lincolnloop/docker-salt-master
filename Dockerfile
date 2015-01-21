@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-ENV SALT_VERSION=2014-07
+ENV SALT_VERSION 2014-07
 
 RUN apt-get update -q && apt-get install -y wget
 RUN wget http://debian.saltstack.com/debian-salt-team-joehealy.gpg.key
